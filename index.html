@@ -1,0 +1,1689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal_Pet_Shops</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="app">
+
+        <header class="header">
+
+            <div class="grid">
+
+                <nav class="heder__navbar">
+                    <ul class="header__navbar-list">
+                        <a  href="/"class="header__navbar-item header__navbar-item--separate">Trang Chủ</a>
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">Ứng Dụng IOS-Android
+                            <div class="header__qr">
+                                <img src="assets/images/qrcode.png" alt="QR_code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr_link">
+                                        <img src="assets/images/googleplay.png" alt="Google_Play" class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr_link">
+                                        <img src="assets/images/appstore.png" alt="Apps_Store" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--separate">Trở Thành NV Bán Hàng</li>
+                        <li class="header__navbar-item ">
+                            <span class="header__navbar-title--no-pointer">Kết Nối</span>
+
+                            <a href="https://www.facebook.com/quangtrong99x" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/tdqtrong/" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar--list">
+                        <li class="header__navbar-item header__navbar-item--has-notification">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="far fa-bell"></i> Thông Báo
+                            </a>
+                            <div class="header__notification">
+                                <header class="header__notification-herder">
+                                    <h3>Thông Báo Mới Nhận</h3>
+                                </header>
+                                <ul class="header__notification-list">
+                                    <li class="header__notification-item header__notification-item--viewed ">
+                                        <a href="" class="header__notification-link">
+                                            <img src="https://www.petmart.vn/wp-content/uploads/2019/10/thuc-an-cho-cho-mec-wild-taste-nutrition-for-poodle-300x300.jpg" alt="" class="header__notification-img">
+                                            <div class="header__notification-info">
+                                                <span class="header__notification-name">Thức ăn cho chó MKB MEC Wild Taste Nutrition for Poodle</span>
+                                                <span class="header__notification-description">Hot Sale!
+                          ưu đãi từ 30% off</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notification-item header__notification-item--viewed">
+                                        <a href="" class="header__notification-link">
+                                            <img src="https://www.petmart.vn/wp-content/uploads/2015/11/xich-cho-cho-dai-nguc-co-dien-hand-in-hand-classic-adjustable-harness-leash-1-400x400.jpg " alt="" class="header__notification-img">
+                                            <div class="header__notification-info">
+                                                <span class="header__notification-name">Xích cho chó đai ngực HAND IN HAND Classic Adjustable Harness Leash</span>
+                                                <span class="header__notification-description">
+                         ưu đãi từ 10% off HAND IN HAND</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notification-item header__notification-item--viewed">
+                                        <a href="" class="header__notification-link">
+                                            <img src="https://www.petmart.vn/wp-content/uploads/2015/09/chuong-meo-bang-go-2-ngan-san-nhua-richell-rc18-400x400.jpg " alt="" class="header__notification-img">
+                                            <div class="header__notification-info">
+                                                <span class="header__notification-name">Chuồng chó mèo bằng gỗ 2 ngăn sàn nhựa RICHELL RC18</span>
+                                                <span class="header__notification-description">
+                            ưu đãi từ 10% off         
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notification-footer">
+                                    <a href="" class="header__notification-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="far fa-question-circle"></i> Hỗ Trợ</a>
+                        </li>
+
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng Ký</li>
+
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng Nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="./assets/images/user.jpg" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Quang Trọng</span>
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--separate ">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Header With Search -->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                       <a href="/" class="header__logo-link">
+                        <img src="assets/images/logopets.jpg" alt="" class="header__logo-img">
+                    </a>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập tìm kiếm sản phẩm">
+                            <!-- search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">nhà cho chó</a>
+                                        
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">thức ăn dành cho mèo</a>
+                                    </li>
+
+                                    <li class="header__search-history-item">
+                                        <a href="">đò chơi chuột hamster</a>
+                                    </li>
+
+                                    <li class="header__search-history-item">
+                                        <a href="">bể cho rùa mini</a>
+                                    </li>
+
+                                    <li class="header__search-history-item">
+                                        <a href=""> cá cảnh</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href=""> Cắt tỉa lông chó mèo</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href=""> Tắm spa cho chó mèo</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href=""> Khách sạn chó mèo</a>
+                                    </li>
+
+                                    <li class="header__search-history-item">
+                                        <a href="">Hỏi đáp thú y miễn phí</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong shops</span>
+                            <i class="header__search-select-icon fas fa-angle-down"></i>
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <!-- cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">3</span>
+                            <!-- hast cart:header__cart-list--no-cart -->
+                            <div class="header__cart-list ">
+                                <img src="./assets/images/empty-cart-png.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">
+                                    Chưa có sản phẩm!
+                                </span>
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <!-- Cart Item -->
+                                    <li class="header__cart-item">
+                                        <img src="https://www.petmart.vn/wp-content/uploads/2015/09/chuong-go-cho-cho-meo-RICHELL-rc03-300x300.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Chuồng gỗ cho chó mèo</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">2.450.000 ₫</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description"> 
+                                                    Phân loại hàng: Mới (hot)
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://www.petmart.vn/wp-content/uploads/2013/06/thuoc-tri-giun-tim-cho-cho-be-merial-heartgad-plus-300x300.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Thuốc trị giun tim cho chó bé</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">105.000 ₫</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description"> 
+                                                    Phân loại hàng: Mới (hot)
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://www.petmart.vn/wp-content/uploads/2021/08/tui-dung-cho-meo-trong-suot-loffe-pet-shoulder-bag-300x300.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Túi đựng chó mèo trong suốt</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">495.000 ₫</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qnt">5</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description"> 
+                                                    Phân loại hàng: Mới (hot)
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://www.petmart.vn/wp-content/uploads/2015/10/nha-cay-cho-meo-cat-tree-qq80050-13-300x300.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Nhà cây cho mèo Cat Tree</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">4.000.000 ₫</span>
+                                                <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description"> 
+                                                    Phân loại hàng: Mới (hot)
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                           </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                    
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fas fa-list"></i>
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Tất cả</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Thức ăn & Dinh dưỡng</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Vệ sinh & Chăm sóc</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Đồ dùng & Phụ kiện</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Nhà, Chuồng & Nệm</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Thuốc thú y</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Cắt tỉa lông chó mèo</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Tắm spa cho chó mèo</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Khách sạn chó mèo</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Hỏi đáp thú y miễn phí</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="gird__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn ">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá thấp đến cao</a>
+                                        
+                                    </li>
+                                    <li class="select-input__item">
+                                       
+                                        <a href="" class="select-input__link">Giá cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                <span class="home-filter__page-current">1</span>/14
+                                
+                            </span>
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disabeld">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-product">
+                            <!--  grid-row-column -->
+                            <div class="grid__row">
+                                <!-- Product item -->
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2013/05/pate-cho-meo-vi-nuoc-sot-ca-ngu-whiskas-tuna-flavour-sauce1-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Pate cho mèo vị nước sốt cá ngừ WHISKAS Tuna Flavour Sauce </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">30.000đ</span>
+                                            <span class="home-product-item__price-current">20.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2013/05/pate-cho-meo-vi-nuoc-sot-ca-bien-whiskas-ocean-fish-flavour-sauce.jpg)"></div>
+                                        <h4 class="home-product-item__name">Pate cho mèo vị nước sốt cá biển WHISKAS Ocean Fish Flavour Sauce </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">30.000đ</span>
+                                            <span class="home-product-item__price-current">20.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2013/05/pate-cho-meo-vi-nuoc-sot-bach-tuoc-whiskas-octopus-flavour-sauce.jpg)"></div>
+                                        <h4 class="home-product-item__name">Pate cho mèo vị nước sốt bạch tuộc WHISKAS Octopus Flavour Sauce </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">30.000đ</span>
+                                            <span class="home-product-item__price-current">20.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2013/05/nuoc-sot-cho-meo-vi-thit-ga-whiskas-chicken-flavour-in-sauce-1.jpg)"></div>
+                                        <h4 class="home-product-item__name">Pate cho mèo vị nước sốt thịt gà WHISKAS Chicken Flavour Sauce </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">30.000đ</span>
+                                            <span class="home-product-item__price-current">20.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2013/05/pate-cho-meo-vi-nuoc-sot-thit-bo-whiskas-beef-flavour-sauce.jpg)"></div>
+                                        <h4 class="home-product-item__name">Pate cho mèo vị nước sốt thịt bò WHISKAS Beef Flavour Sauce</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">30.000đ</span>
+                                            <span class="home-product-item__price-current">20.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2016/09/xich-cho-cho-cuong-nguc-vai-bo-hand-in-hand-denim-nylon-harness-and-leash-0-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Xích cho chó cương ngực vải bò HAND IN HAND Denim & Nylon Harness and Leash</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">200.000đ</span>
+                                            <span class="home-product-item__price-current">100.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2019/05/dat-cho-meo-di-dao-tu-cuon-dele-009-retractable-leash-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Dây dắt chó mèo đi dạo tự cuốn DELE 009 Retractable Leash</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">200.000đ</span>
+                                            <span class="home-product-item__price-current">99.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2016/09/tui-dung-cho-meo-anime-hinh-hoa-tiet-dark-cats-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Túi đựng chó mèo ANIME hình họa tiết Dark Cats </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">500.000đ</span>
+                                            <span class="home-product-item__price-current">499.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2020/10/balo-cho-meo-hinh-vo-trung-loffe-eggshell-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Balo đựng chó mèo hình vỏ trứng LOFFE Eggshell </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">500.000đ</span>
+                                            <span class="home-product-item__price-current">499.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2015/03/nha-cay-cho-meo-cat-tree-qq80038-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Nhà cây cho mèo Cat Tree QQ80038 </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">2.200.000đ</span>
+                                            <span class="home-product-item__price-current">1.999.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2015/03/nha-cay-cho-meo-cat-tree-qq80349-3-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Nhà cây cho mèo Cat Tree QQ80349-3 </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">3.200.000đ</span>
+                                            <span class="home-product-item__price-current">2.999.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2015/10/nha-cay-cho-meo-cat-tree-qq80911b-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Nhà cây Cat Tree cho mèo QQ80911B </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">2.200.000đ</span>
+                                            <span class="home-product-item__price-current">999.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2016/09/nha-cay-cho-meo-cat-tree-qq80764-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Nhà cây cho mèo Cat Tree QQ80764 </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">5.200.000đ</span>
+                                            <span class="home-product-item__price-current">2.999.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2019/04/nha-cay-cho-meo-cat-tree-qq80492-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Nhà cây cho mèo Cat Tree QQ80492 </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">2.200.000đ</span>
+                                            <span class="home-product-item__price-current">999.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2015/10/nha-cay-cho-meo-cat-tree-qq80050-13-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Nhà cây cho mèo Cat Tree QQ80050-13 </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">4.200.000đ</span>
+                                            <span class="home-product-item__price-current">3.999.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2019/04/o-dem-cho-cho-meo-cham-bi-elite-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Ổ đệm cho chó mèo chấm bi ELITE </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">400.000đ</span>
+                                            <span class="home-product-item__price-current">250.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2015/10/nem-cho-cho-meo-hinh-vuong-bobby-pet-16rb004-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Nệm cho chó mèo hình vuông BOBBY PET 16OB004 </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">400.000đ</span>
+                                            <span class="home-product-item__price-current">299.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2020/12/tham-nam-cho-cho-meo-hinh-chu-nhat-hoa-van-tho-cam-elite-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Thảm nằm cho chó mèo hình chữ nhật hoa văn thổ cẩm ELITE </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">200.000đ</span>
+                                            <span class="home-product-item__price-current">199.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2020/12/nem-cho-cho-meo-hinh-vuong-thanh-cao-hoa-van-hinh-cho-elite-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Nệm cho chó mèo hình vuông thành cao hoa văn hình chó ELITE </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">405.000đ</span>
+                                            <span class="home-product-item__price-current">299.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2020/12/o-dem-cho-cho-meo-vai-hoa-tiet-tho-cam-elite-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Ổ đệm cho chó mèo vải họa tiết thổ cẩm ELITE </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">395.000đ</span>
+                                            <span class="home-product-item__price-current">109.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2014/05/chuong-sat-gap-cho-meo-nan-cung-paw-collapsible-crate-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Chuồng sắt gấp cho chó mèo PAW Collapsible Crate </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">700.000đ</span>
+                                            <span class="home-product-item__price-current">499.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2016/04/quay-cho-meo-bang-nhua-lap-ghep-aupet-pet-pens-bp206-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Quây chó mèo bằng nhựa lắp ghép AUPET Pet Pens BP206 </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">2.445.000 ₫</span>
+                                            <span class="home-product-item__price-current">1.999.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2019/06/chuong-sat-cho-cho-meo-co-mai-iris-hca-900s-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Chuồng sắt cho chó mèo mái chóp IRIS HCA-900S </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">2.750.000 ₫</span>
+                                            <span class="home-product-item__price-current">1.999.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2019/06/nha-cho-cho-bang-nhua-dang-cao-xinding-419-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Nhà nhựa cho chó có cửa sổ trời XINDING 419 </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.980.000 ₫</span>
+                                            <span class="home-product-item__price-current">999.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2020/10/nha-nhua-cho-cho-xinding-dog-house-432-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Nhà nhựa cho chó XINDING Dog House 432</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.680.000 ₫</span>
+                                            <span class="home-product-item__price-current">899.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2015/09/chuong-cho-meo-go-san-nhua-richell-rc30-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Chuồng chó mèo bằng gỗ sàn nhựa RICHELL RC30</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">5.650.000 ₫</span>
+                                            <span class="home-product-item__price-current">4.999.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2019/07/chuong-go-cho-cho-meo-2-tang-RICHELL-rc09-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Chuồng gỗ cho chó mèo 2 tầng RICHELL RC09 </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">4.690.000 ₫</span>
+                                            <span class="home-product-item__price-current">3.999.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2021/07/chuong-cho-cho-meo-xinding-kennel-xdb-438-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Chuồng nhựa cho chó mèo XINDING Kennel XDB-438 </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.890.000 ₫</span>
+                                            <span class="home-product-item__price-current">999.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2019/07/chuong-go-cho-cho-meo-loai-to-rc11-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Chuồng gỗ cho chó mèo loại to RICHELL RC11 </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">4.850.000 ₫</span>
+                                            <span class="home-product-item__price-current">2.999.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <a class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://www.petmart.vn/wp-content/uploads/2015/09/chuong-go-cho-cho-meo-RICHELL-rc04-300x300.jpg)"></div>
+                                        <h4 class="home-product-item__name">Chuồng gỗ cho chó mèo RICHELL RC04 </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">3.350.000 ₫</span>
+                                            <span class="home-product-item__price-current">2.399.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                            <!-- <i class="fas fa-heart"></i> -->
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <span class="home-product-item__sold">99 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Mỹ Tho</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                            
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+        </footer>
+    </div>
+    <!-- Modal layout -->
+    <!-- <div class="modal">
+        <div div class="modal__overlay"></div>
+
+        <div class="modal__body"></div> -->
+
+    <!-- Register-form -->
+    <!-- <div class="auth-form">
+
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form_switch-btn">Đăng Nhập</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email/Tên Đăng Nhập">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập Lại Mật khẩu">
+                        </div>
+                    </div>
+                    <div class="auth-form__adise">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng ký,bạn có đồng ý với Second Hand Về
+                            <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a>&
+                            <a href="" class="auth-form__text-link">Chính sách bảo mật của cữa hàng</a>
+                        </p>
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class="btn btn--normal auth-form__controls-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary ">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon ">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">Kết nối với Facebook</span>
+                    </a>
+                    <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__socials-title">Kết nối với Google</span>
+                    </a>
+                </div>
+            </div> -->
+
+    <!-- login-form -->
+    <!-- <div class="auth-form">
+
+            <div class="auth-form__container">
+                <div class="auth-form__header">
+                    <h3 class="auth-form__heading">Đăng Nhập</h3>
+                    <span class="auth-form_switch-btn">Đăng ký</span>
+                </div>
+                <div class="auth-form__form">
+                    <div class="auth-form__group">
+                        <input type="text" class="auth-form__input" placeholder="Email/Tên Đăng Nhập">
+                    </div>
+                    <div class="auth-form__group">
+                        <input type="password" class="auth-form__input" placeholder="Mật khẩu">
+                    </div>
+                </div>
+                <div class="auth-form__adise">
+                    <div class="auth-form__help">
+                        <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                        <span class="auth-form__help-separate"></span>
+                        <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                    </div>
+                </div>
+                <div class="auth-form__controls">
+                    <button class="btn btn--normal auth-form__controls-back">TRỞ LẠI</button>
+                    <button class="btn btn--primary ">ĐĂNG NHẬP</button>
+                </div>
+            </div>
+
+            <div class="auth-form__socials">
+                <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon ">
+                    <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                    <span class="auth-form__socials-title">Đăng Nhập với Facebook</span>
+                </a>
+                <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                    <i class="auth-form__socials-icon fab fa-google"></i>
+                    <span class="auth-form__socials-title">Đăng Nhập với Google</span>
+                </a>
+            </div>
+        </div>
+    </div> -->
+
+
+</body>
+
+</html>
